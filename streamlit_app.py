@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Load the trained model
-model_path = r'C:\Users\karthikeyan\OneDrive\Desktop\Car Dekho\xgboost_model.pkl'  # Update with your actual model path
+model_path = r'https://github.com/KarthikeyanBommannan/Car-Price-Prediction/blob/main/xgboost_model.pkl'  # Update with your actual model path
 try:
     with open(model_path, 'rb') as f:
         model = pickle.load(f)
