@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
-
+import requests
 # import xgboost
 
 # Set Streamlit page configuration
@@ -15,8 +15,10 @@ st.set_page_config(
 # Load the trained model
 model_path = 'https://github.com/KarthikeyanBommannan/Car-Price-Prediction/blob/main/xgboost_model.pkl'  # Update with your actual model path
 try:
-    with open(model_path, 'rb') as f:
-        model = pickle.load(f)
+    response = requests.get(model_path)
+    if response.status_code == 200:
+        with open(model_path, 'rb') as f:
+            model = pickle.load(f)
 except FileNotFoundError:
     st.error("Error: Model file not found. Please check the file path.")
     st.stop()
