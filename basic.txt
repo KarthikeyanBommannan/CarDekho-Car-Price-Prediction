@@ -1,0 +1,19 @@
+Max_Power_in_bhp = manual input 
+     
+Year = manual input
+                  
+Transmission = {'Manual':1,'Automatic':0}
+          
+Fuel Tank Capacity = manual input
+    
+Drivetrain = {'AWD':2,'RWD':1,'FWD':0})
+
+            
+Seating Capacity =(2,4,5,6,7,8) manual input
+      
+Make = {'Audi': 0, 'BMW': 1, 'Chevrolet': 2, 'Datsun': 3, 'Ferrari': 4, 'Fiat': 5, 'Ford': 6, 'Honda': 7, 'Hyundai': 8, 'Isuzu': 9, 'Jaguar': 10,
+ 'Jeep': 11, 'Kia': 12, 'Land Rover': 13, 'Lexus': 14, 'MG': 15, 'MINI': 16, 'Mahindra': 17, 'Maruti Suzuki': 18, 'Maserati': 19, 'Mercedes-Benz': 20,
+ 'Mitsubishi': 21, 'Nissan': 22, 'Porsche': 23, 'Renault': 24, 'Rolls-Royce': 25, 'Skoda': 26, 'Ssangyong': 27, 'Tata': 28, 'Toyota': 29, 'Volkswagen': 30,
+ 'Volvo': 31}     
+            
+Kilometer  = manual input            
