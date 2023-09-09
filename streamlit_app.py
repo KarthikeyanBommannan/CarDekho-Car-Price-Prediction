@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Load the trained model
-model_path = 'https://github.com/KarthikeyanBommannan/Car-Price-Prediction/blob/main/xgboost_model.pkl'  # Update with your actual model path
+model_path = 'xgboost_model.pkl'  # Update with your actual model path
 try:
     response = requests.get(model_path)
     if response.status_code == 200:
